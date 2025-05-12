@@ -1,10 +1,8 @@
-const USER = {
-  id: "",
-  firstName: "",
-  lastName: "",
-  email: "",
-  phone: "",
-  password: "", // min 4 symbols
+module.exports = {
+  id: 'string',
+  firstName: 'string',
+  lastName: 'string',
+  email: 'string',
+  phone: 'string',
+  password: 'string',
 };
-
-export { USER };
